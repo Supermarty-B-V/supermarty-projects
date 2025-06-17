@@ -1,0 +1,259 @@
+SuperMarty project - Meetings,,
+State,Meeting items,Comments
+21 October 2024 - Kick-Off Meeting,,
+TRUE,Introduction,
+TRUE,"Responsibilities and representatives: Managing one of the items: Budget, scope, deadline",
+TRUE,Official start of the project - Pre-development phase,
+TRUE,"Approval on designs, flows, and roadmap (MVP scope)",Mahsa will send the MVP scope to Amir for final approval
+TRUE,Agile contract and invoicing structure,
+TRUE,Agile management methodologies ,
+TRUE,Support system,
+TRUE,Q&A,Amir: Contracts and legal process should be started - Source code's should be delivered to us | Mahsa: I will provide you with the answer by the end of the day.
+11 November 2024 - Agile management methodology ,,
+TRUE,What is Agile: Scrum - Epic - Sprint,
+TRUE,What steps we will take during the project ,
+TRUE,I will be a guardian to your budget ,
+TRUE,We are dependent on you,
+TRUE,Q&A,
+2 December 2024 - Update and Question,,
+TRUE,Let's keep in touch. We need your cooperation ,
+TRUE,2 times in week to be avaiable ,Wednesday: 12:00 to 13:00 - Thursday 12:00 to 13:00
+TRUE,We do not recommend a native mobile app,Web app
+TRUE,Low code portals for admin panel,Agreed
+TRUE,Payments and invoices,Amir give me a deadline today (December 2)
+TRUE,Q&A,Scapper launched a new apps
+9 December 2024 - Update and Question,,
+TRUE,What categories do you want have? ,"We need to have as detailed tags as possible (Zuivel, eieren, boterMelkHalfvolle melk) - The admin should be able to change the suggested products manually "
+TRUE,How many users do you estimate to use the application?,Amir is going to send it to me by December 10 
+TRUE,Can we crawl the recepies from the markets?,I will let you know by December 12
+16 December 2024 - Update and Question,,
+TRUE,"Should meals include fields for a name, description, and preparation instructions?",Yes
+TRUE,"Which product categories from the supermarkets do you want to include in the system (e.g., Meat, Vegetables, Beverages)?",Same as Albert hein
+TRUE,"What information should be used to define a bag or meal? For example: price, weight, calories, nutritional breakdown, etc.",Amir will send the list to me
+TRUE,"Should out-of-stock products be displayed in suggestions, or should they be excluded?",Nothing for now
+TRUE,"What are the key factors for end-users to discover bags and meals? For example: price, nutritional value, category, popularity, or user preferences.","If the user has not chosen any filter or preference, show the bags and meals randomly
+but other than this, it should be based on the user's preference and the tags that the admin had added to the bags and meals: like Diet, helal, low carb, high protein"
+TRUE,"For the matching algorithm:
+-Should the system aim for exact matches (same product across all supermarkets)?
+-Or should it suggest close matches (similar products with slight differences)?
+-How should the system handle scenarios where a product does not exist in one or more supermarkets?","6.1- the admin should be able to change the product of a market if the exact match was not found
+6.2- the category should stay the same, but the amounts, weigh, and things like this can be different
+6.3- Show a warning to the admin to search for an alternative
+but for the shopping cart that user creates, show all the markets, and show a warning next to the market that does not have all the products"
+TRUE,"How should the system handle packaged or pre-offered products, like predefined bags or meal kits available directly from supermarkets?",unclear question
+TRUE,"After a bag or meal is finalized, where should the user be redirected?
+- Would you prefer to show links to each item in the bag/meal individually? Risks and blockers for MVP : supermarket account registrations or blockers","check out page of that market
+- they need to have an account- We need to put a notif there that the users have to have accounts on those markets"
+TRUE,"Should a meal function purely as an instructional recipe, or should it specify exact products sourced from the four supermarkets?",specific products
+TRUE,Do end-users have any roles in the system? Why?,"Not for MVP but in the future there are going to have hierarchy in the system eg trainer, normal user"
+TRUE,"Should the system store user activities, preferences, or liked bags/meals in the MVP version? Why?","yes
+preference: yes
+like: it means adding it to the favorites list
+user activity: we didn't get what does it mean"
+TRUE,Amir: I would like to have an AI as a food assistance in the application,"It is a good idea, but not for MVP"
+23 December 2024 - Update and Question,,
+TRUE,Concern regarding the payment transparency ,Amir understood the concerns we had and 
+TRUE,"Javad : Is it necessary to include Picnic supermarket in the MVP, or would you recommend starting with another supermarket due to data aggregation challenges?",Amir: We can skip Picnic for the MVP but keep in mind we eventually need that in the later versions
+TRUE,Javad : Is it essential to include categories like laundries in the product categories?,Amir: Include everything in the categories
+TRUE,"Javad : How should the system handle packaged or pre-offered products, like predefined bags or meal kits available directly from supermarkets?",Amir: Show them one on one
+TRUE,Vahid: We can devide the system into 3 parts: 1- users 2- Admin 3- Aggregation of data from super markets,Amir: It is ok
+TRUE,"Vahid: We want to to focus on the admin side first, what are the fields needed for the meals and bags and products","we have 3 levels: 1- bags, 2-meals, 3- products= Nutritional info for all levels. Description field for bags and meals"
+TRUE,Vahid: Why do you need to have products in the admin panel,"Amir: If I want to create a mean, I need to create a bag first, and for bag I need to have access to bags"
+TRUE,Amir: I want to reuse the created meals to create new ones without being have to making it from scratch,Mahsa: We can have a feature like duplicate
+TRUE,Javad: Do users see the total calleries or it should be based on the product?,"Amir: It should be top down, first total callery of the bag, then meal, then product"
+TRUE,Vahid: Filter supermarket products with some fields and related them to our product,Amir: It's a good idea but have some challenging products like chilly powder for find in all supermarkets with same filter because same product have some types in different supermarkets and with different prices
+TRUE,Vahid: In client side there is a challenge in purchase shopping list in supermarkets,"Amir: It's exist some solution for example in albert heighn can share the shopping list link and other just click on it and use that shopping list
+Javad: we can thinking more future for this challenge and find solution"
+30 December 2024- Update and Question,,
+TRUE,Reviewing action points of the previous meeting,
+TRUE,Reviewing the budget spent so far,
+TRUE,Approval on the epic and its features,
+TRUE,Available in [name supermarkets] field in add product page,It was a misunderstanding and we can show this value for the admins
+TRUE,How to manage Nutritional values on products?,"For the products with standard units (kg, Li) it is ok. For the ones that are being sold in peices but the nutitional values are per grams, we will provide their list to Amir so he can tell us the standard nutritional values. We will send the list to Amir by the end of January"
+TRUE,Q&A,Amir:  I would like to see how we are going to show the nutritional values in user side. | Mahsa: We already have samples. We can demonstrate them to you next week
+06 January 2025- Update and Question,,
+TRUE,Reviewing action points of the previous meeting,
+TRUE,Reviewing the budget spent so far,"Admin panel: On track - Aggregator: Off track. At the end of the sprint, We might need to remove someof the less-important features to cover it up"
+TRUE,Product fields ,Amir has checked the fields that we need to store - He will highlight the fields that he doesn't understand what they mean
+TRUE,Approval on epic 2's features,Amir will review and provide us with a resonse by the end of the day
+TRUE,Approval on the payment at the end of January,Amir will let me know by the end of the day
+TRUE,Lack of response to the emails and its consequences on us,Amir said he will try to respond to ny emails in 24 hours
+TRUE,Nutritional value design samples,"By the end of tomorrow Amir will send a compelete list of nutritional values - For the first version, we will use the table design"
+TRUE,Q&A,
+16 January 2025- Update and Question,,
+TRUE,Next steps,
+TRUE,Payment terms ,Amir will talk to Jacky and inform us by Jan 17
+TRUE,Q&A,
+20 January 2025- Update and Question,,
+TRUE,Reviewing action points of the previous meeting,
+TRUE,Reviewing the budget spent so far,
+TRUE,Epic 2 designs,
+TRUE,Demonstrating Sprint 1,
+TRUE,Finalizing payment terms,
+TRUE,Q&A,
+17 February 2025- Update and Question,,
+TRUE,Reviewing action points of the previous meeting,Amir will send it after the meeting
+TRUE,Reviewing the budget spent so far,Mahsa should share the credentials of stage by Feb 20
+TRUE,"Company set up, and official invoices",Amir will talk to Jacky and let me know about the result 
+TRUE,Logo of the Super Marty project,Amir will share the files after the meeting
+TRUE,Language of the application- We need Dutch translation,"Mahsa will provide Amir with a clean Figma file by Feb 20, Amir will translate and add comments, no deadline for this"
+TRUE,Q&A,
+24 February 2025- Update and Question,,
+TRUE,Meet our team members,
+TRUE,Reviewing action points of the previous meeting,
+TRUE,Reviewing the budget spent so far,
+TRUE,Discover page design,
+TRUE,Demonstration of epic 1 and 2,
+TRUE,"Searching within products, price or amount",Internally solved
+TRUE,Q&A,
+5 March 2025- Update and Question,,
+TRUE,Reviewing action points of the previous meeting,
+TRUE,Reviewing the budget spent so far,
+TRUE,Checking epic 1 and 2,
+TRUE,Q&A,
+10 March 2025- Update and Question,,
+TRUE,Reviewing action points of the previous meeting,
+TRUE,Reviewing the budget spent so far,
+TRUE,Demonstrating recent features,
+TRUE,Product and group product,
+TRUE,Q&A,
+17 March 2025- Update and Question,,
+TRUE,Reviewing action points of the previous meeting,
+TRUE,Reviewing the budget spent so far,
+TRUE,Reviewing your feedback document,
+TRUE,Check out and redirection to the destination super market,
+TRUE,Charactristics of the products,
+TRUE,Q&A,
+8 April 2025- Update and Question,,
+TRUE,Reviewing the invoices,
+TRUE,Confiusion about the project budget,
+8 April 2025- Update and Question - Afternoon,,
+TRUE,Reviewing action points of the previous meeting,
+TRUE,Reviewing the budget spent so far,
+TRUE,A short demo of selecting market products for product groups,
+TRUE,Deeper discussion about charactristics,
+TRUE,Q&A,
+9 April 2025- Update and Question,,
+TRUE,October 21 - Project discovery files including roadmap were sent via email,
+TRUE,November 10 - Total hours and rate per hour were sent via email,
+TRUE,How far have we proceeded so far according to the initial roadmap,
+TRUE,"What next? Are we limitted to the 100K? If yes, we need to plan how to use the remaining time",
+TRUE,Retro: Emails should be checked carefully and replied,
+TRUE,Q&A,
+10 April 2025 - Roadmap review meeting,,
+TRUE,Reviewing the roadmap and listing the remaining to-dos,
+15 April 2025- Update and Question,,
+TRUE,What is the budget?,
+TRUE,The payment planning,
+22 April 2025- Update and Question,,
+TRUE,Reviewing action points of the previous meeting,
+TRUE,Reviewing the budget spent so far,
+TRUE,Let's go live!,"Server: a VM for now. Duration: 3 months
+Storage: 100GB
+Mail provider: Mailgun
+SSL: Comodo
+Domain "
+TRUE,Demonstration of the new features,
+TRUE,Q&A,
+29 April 2025- Update and Question,,
+FALSE,Reviewing action points of the previous meeting,
+FALSE,Reviewing the budget spent so far,
+FALSE,Demonstration of the new features,
+FALSE,Q&A,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
+FALSE,,
